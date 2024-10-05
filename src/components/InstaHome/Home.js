@@ -8,8 +8,6 @@ import chat5 from "../../Assets/screenshot3-2x.png";
 import chat6 from "../../Assets/screenshot3.png";
 import chat7 from "../../Assets/screenshot4-2x.png";
 import chat8 from "../../Assets/screenshot4.png";
-import backImg from "../../Assets/backIPhone.png";
-
 import playstore from "../../Assets/getinplaystore.jpg";
 import microsoft from "../../Assets/getinmicrosoft.jpg";
 
@@ -39,27 +37,11 @@ function Home() {
       <div className="flex flex-row items-start justify-center gap-10 bg-gray-200">
         <div className="flex mt-5">
           <div style={{ position: "relative", width: "auto", height: "auto" }}>
-            
             <img
               src={Phone1}
               alt="Phone Case"
               style={{ width: "95%", height: "100%" }}
             />
-            
-            {/*             
-          <img
-              src={backImg}
-              alt="Inner Image"
-              style={{
-                position: "absolute",
-                top: "40.5%",
-                left: ".5%",
-                transform: "translate(-50%, -50%)",
-                width: "100%",
-                height: "94%",
-              }}
-            /> */}
-
             <img
               src={currentImage}
               alt="Inner Image"
