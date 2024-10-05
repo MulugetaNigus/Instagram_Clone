@@ -5,6 +5,10 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      insta: ["Lobster"],
+      insta2: ["Pacifico", "cursive"],
+    }
   },
   plugins: [],
 }
